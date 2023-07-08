@@ -2,6 +2,17 @@ body {
   background-color: beige;
 }
 
+.canvasPedido img {
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 10px;
+  position: relative;
+  top: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
