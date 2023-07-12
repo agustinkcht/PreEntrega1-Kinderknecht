@@ -43,7 +43,7 @@ console.log("Monto Solicitado: " + montoPrestamo)
 
 
 
-let cuotasPrestamo = prompt ("¿En cuántas cuotas desea devolver el préstamo? Opciones: 3, 6, 12, 24 y 48 meses")
+let cuotasPrestamo = prompt ("¿En cuántas cuotas desea devolver el préstamo? Opciones: 3, 6, 12, 24 y 48.")
 while ( cuotasPrestamo != 3 && cuotasPrestamo != 6 && cuotasPrestamo !=12 && cuotasPrestamo != 24 && cuotasPrestamo != 48 ) {
     alert("Debes ingresar un plazo válido. Las opciones son 3, 6, 12, 24 y 48 cuotas.")
     cuotasPrestamo = prompt ("¿En cuántas cuotas desea devolver el préstamo? Opciones: 3, 6, 12, 24 y 48.")
