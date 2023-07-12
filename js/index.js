@@ -129,27 +129,5 @@ switch (confirmar) {
         break;
     case null:
         alert("Usted ha cancelado la operación.")
+        break;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*
-while (confirmar != "ACEPTAR" && confirmar != "Aceptar" && confirmar != "aceptar" && confirmar != null) {
-
-    alert("Debes ingresar una respuesta válida o presionar cancelar")
-
-    confirmar = prompt("Usted " + nombreCliente + " " + apellidoCliente + " con DNI " + dniCliente + " ha solicitado un préstamo de $" + montoPrestamo + " a ser devuelto en " + cuotasPrestamo + " cuotas de $" + parseInt(valorCuota) + "." + " El total que deberá devolver es de $" + montoDevolver + "." + " Para confirmar y finalizar la operación, escriba ACEPTAR. " + "Si desea cancelar la operación, presione Cancelar.") 
-}
-if (confirmar == "ACEPTAR" && confirmar == "Aceptar" && confirmar == "aceptar") {
-    alert
-}
-
-*/
